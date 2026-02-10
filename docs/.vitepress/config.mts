@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import navbar from './navbar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,11 +8,7 @@ export default defineConfig({
   base: "/vitepress-example",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
+    nav: navbar.NAVBAR,
     sidebar: [
       {
         text: 'Examples',
