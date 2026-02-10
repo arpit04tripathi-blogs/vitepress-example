@@ -10,9 +10,9 @@ const NAVBAR = [
     { 
         text: 'Dropdown 1', 
         items: [
-            { text: 'Item A', link: '/item-1' },
-            { text: 'Item B', link: '/item-2' },
-            { text: 'Item C', link: '/item-3' },
+            { text: 'Item X', link: '/item-x' },
+            { text: 'Item Y', link: '/item-y' },
+            { text: 'Item Z', link: '/item-z' },
         ]
     },
     { 
