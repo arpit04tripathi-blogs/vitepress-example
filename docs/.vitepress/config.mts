@@ -48,6 +48,16 @@ export default defineConfig({
           { text: 'About', link: '/about' },
         ]
       },
+      {
+        text: 'Utils',
+        items: [
+          { text: 'Images', link: '/utils/img' },
+          { text: 'Mermaid', link: '/utils/mermaid' },
+          { text: 'Maths', link: '/utils/maths' },
+          { text: 'Youtube', link: '/utils/youtube' },
+        ],
+        collapsed: true,
+      },
     ],
 
     socialLinks: [
