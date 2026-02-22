@@ -6,6 +6,9 @@ hero:
   name: "VitePress Example"
   text: "A VitePress Site"
   tagline: My great project tagline
+  imaage:
+    alt: Hero Image
+    src: /images/background.png
   actions:
     - theme: brand
       text: Markdown Examples
@@ -13,6 +16,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: alt
+      text: About
+      link: /about
 
 features:
   - title: Feature A
