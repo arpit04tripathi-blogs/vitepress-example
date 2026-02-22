@@ -8,6 +8,7 @@ import { YouTubeEmbed } from '@miletorix/vitepress-youtube-embed' // [!code ++]
 import '@miletorix/vitepress-youtube-embed/style.css' // [!code ++]
 import './style.css'
 import AsideElementComponent from '../../components/AsideElementComponent.vue';
+import NotFound from '../../components/NotFound.vue';
 
 export default {
   extends: DefaultTheme,
@@ -17,6 +18,7 @@ export default {
       'aside-outline-before': () => h(AsideElementComponent),
       'aside-ads-before': () => h(AsideElementComponent),
       'aside-ads-after': () => h(AsideElementComponent),
+      'not-found': () => h(NotFound),
     })
   },
   enhanceApp({ app, router, siteData }) {
