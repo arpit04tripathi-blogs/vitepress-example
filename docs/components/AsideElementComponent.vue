@@ -1,5 +1,5 @@
 <template>
-    <small>On this page</small>
+    <small>aside-outline-before</small>
     <br/>
 </template>
 

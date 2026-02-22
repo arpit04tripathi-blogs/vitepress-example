@@ -9,6 +9,7 @@ import '@miletorix/vitepress-youtube-embed/style.css' // [!code ++]
 import './style.css'
 import AsideElementComponent from '../../components/AsideElementComponent.vue';
 import NotFound from '../../components/NotFound.vue';
+import ImageComponent from '../../components/ImageComponent.vue';
 
 export default {
   extends: DefaultTheme,
@@ -16,13 +17,14 @@ export default {
     return h(DefaultTheme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
       'aside-outline-before': () => h(AsideElementComponent),
-      'aside-ads-before': () => h(AsideElementComponent),
-      'aside-ads-after': () => h(AsideElementComponent),
+      // 'aside-ads-before': () => h(AsideElementComponent),
+      // 'aside-ads-after': () => h(AsideElementComponent),
       'not-found': () => h(NotFound),
     })
   },
   enhanceApp({ app, router, siteData }) {
     app.component('YouTubeEmbed', YouTubeEmbed);
+    app.component('ImageComponent', ImageComponent);
     initComponent(app);
   }
 } satisfies Theme
