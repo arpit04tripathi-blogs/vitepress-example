@@ -7,7 +7,12 @@ export default defineConfig({
 	titleTemplate: "Custom Suffix",
 	description: "A VitePress Site example",
 	base: "/vitepress-example",
-	head: [["link", { rel: "icon", href: "icons/favicon.ico" }]],
+	head: [
+		["link", { rel: "icon", href: "icons/favicon.ico" }],
+		["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+		["link", { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: '' }],
+		["link", { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Bungee&display=swap" }],
+	],
 
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config

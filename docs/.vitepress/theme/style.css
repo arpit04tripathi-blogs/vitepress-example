@@ -129,3 +129,6 @@
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
+h1, h2, .custom-block-title {
+  font-family: 'Bungee';
+}
