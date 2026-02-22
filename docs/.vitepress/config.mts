@@ -94,6 +94,7 @@ export default defineConfig({
 		socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
 	},
   markdown: {
+    math: true,
     config: (md) => {
       vitepressMermaidPreview(md, {
         showToolbar: false, // Global setting: whether to show toolbar by default
