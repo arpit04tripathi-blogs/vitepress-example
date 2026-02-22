@@ -93,6 +93,7 @@ export default defineConfig({
 
 		socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
 		search: { provider: 'local' },
+		// TODO: Agolia AI search
 	},
   markdown: {
     math: true,
