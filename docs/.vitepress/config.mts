@@ -15,6 +15,22 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
       { text: 'About', link: 'about' },
+      { text: 'Utils', items: [
+        { text: 'Images', link: 'img' },
+        { text: 'Mermaid', link: 'mermaid' },
+        { text: 'Maths', link: 'maths' },
+        { text: 'Youtube', link: 'youtube' },
+      ] },
+      { text: 'Dropdown', items: [
+        {text: 'Section 1', items: [
+          { text: 'chapter 1', link: 'chap1' },
+          { text: 'chapter 2', link: 'chap2' },
+        ]},
+        {text: 'Section 2', items: [
+          { text: 'chapter 3', link: 'chap3' },
+          { text: 'chapter 4', link: 'chap4' },
+        ]},
+      ] },
       { text: 'Official', link: 'https://vitepress.dev/' },
     ],
 
