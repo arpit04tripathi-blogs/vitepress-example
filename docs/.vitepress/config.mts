@@ -40,8 +40,24 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
+        ],
+        collapsed: false,
+      },
+      {
+        items: [
+          { text: 'About', link: '/about' },
         ]
-      }
+      },
+      {
+        text: 'Utils',
+        items: [
+          { text: 'Images', link: '/utils/img' },
+          { text: 'Mermaid', link: '/utils/mermaid' },
+          { text: 'Maths', link: '/utils/maths' },
+          { text: 'Youtube', link: '/utils/youtube' },
+        ],
+        collapsed: true,
+      },
     ],
 
     socialLinks: [
