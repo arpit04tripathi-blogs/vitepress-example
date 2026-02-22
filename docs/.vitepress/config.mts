@@ -13,7 +13,9 @@ export default defineConfig({
     logo: 'images/alien2.png',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'About', link: 'about' },
+      { text: 'Official', link: 'https://vitepress.dev/' },
     ],
 
     sidebar: [
