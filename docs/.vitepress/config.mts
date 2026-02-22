@@ -3,10 +3,14 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "VitePress Example",
-  description: "A VitePress Site",
+  titleTemplate: 'Custom Suffix',
+  description: 'A VitePress Site example',
   base: "/vitepress-example",
+  head: [['link', { rel: 'icon', href: 'icons/favicon.ico' }]],
+  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: 'images/alien2.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
