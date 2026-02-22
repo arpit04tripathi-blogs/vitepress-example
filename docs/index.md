@@ -8,7 +8,7 @@ hero:
   tagline: My great project tagline
   image:
     alt: Hero Image
-    src: /images/hero-3.png
+    src: /images/hero.png
   actions:
     - theme: brand
       text: Markdown Examples
